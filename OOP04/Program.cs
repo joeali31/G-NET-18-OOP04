@@ -1,4 +1,6 @@
-﻿namespace OOP04
+﻿using OOP04.Classes;
+
+namespace OOP04
 {
     internal class Program
     {
@@ -19,6 +21,27 @@
              * virtual : This method CAN be overridden by child classes.
              */
             #endregion
+
+
+            #region Part 02
+            //Ticket t1 = new StandardTicket("A-5" , "inception" , 500);
+            //Ticket t2 = new VIPTicket(true , "interstaller" , 300);
+            //Ticket t3 = new IMAXTicket(false , "Dune" , 200);
+
+            //Cinema c1 = new Cinema();
+            //c1.AddTicket(t1);
+            //c1.AddTicket(t2);
+            //c1.AddTicket(t3);
+
+            //c1.OpenCinema();
+
+            //Console.WriteLine();
+
+            //c1.PrintAllTickets();
+
+            //c1.CloseCinema();
+            #endregion
+
         }
     }
 }
